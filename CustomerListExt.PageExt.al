@@ -9,7 +9,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
 
     begin
         Message('The range on the date is %1', Rec.GetRangeMax("Date Filter"));
-
+        Message('THis is another message.');
 
     end;
 }
