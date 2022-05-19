@@ -11,6 +11,10 @@ table 50100 MyCustTable
 
             //Add a coment
             //Add another comment again
+            trigger OnValidate()
+            begin
+                //THis is code on the onvalidate trigger
+            end;
         }
     }
 
