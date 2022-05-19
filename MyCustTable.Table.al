@@ -20,6 +20,11 @@ table 50100 MyCustTable
         {
             DataClassification = ToBeClassified;
         }
+        field(5; Phone; text[10])
+        {
+            DataClassification = ToBeClassified;
+            Caption = 'Phone number';
+        }
     }
 
     keys
