@@ -7,7 +7,10 @@ table 50100 MyCustTable
         field(1; Code; Code[20])
         {
             DataClassification = ToBeClassified;
+            Caption = 'THE code';
 
+            //Add a coment
+            //Add another comment again
         }
     }
 
