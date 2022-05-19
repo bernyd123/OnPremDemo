@@ -16,6 +16,10 @@ table 50100 MyCustTable
                 //THis is code on the onvalidate trigger
             end;
         }
+        field(2; Description; Text[50])
+        {
+            DataClassification = ToBeClassified;
+        }
     }
 
     keys
