@@ -16,6 +16,10 @@ table 50100 MyCustTable
         {
             DataClassification = ToBeClassified;
         }
+        field(3; Address; Text[20])
+        {
+            DataClassification = ToBeClassified;
+        }
     }
 
     keys
@@ -23,6 +27,10 @@ table 50100 MyCustTable
         key(Key1; Code)
         {
             Clustered = true;
+        }
+        key(Key2; Description)
+        {
+
         }
     }
 }
