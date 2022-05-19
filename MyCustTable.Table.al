@@ -12,6 +12,10 @@ table 50100 MyCustTable
             //Add a coment
             //Add another comment again
         }
+        field(2; Description; Text[50])
+        {
+            DataClassification = ToBeClassified;
+        }
     }
 
     keys
