@@ -9,7 +9,7 @@ table 50100 MyCustTable
             DataClassification = ToBeClassified;
             Caption = 'THE code';
 
-            //Add a coment
+            //Add a comentextens dodvasd a
             //Add another comment again
             trigger OnValidate()
             begin
